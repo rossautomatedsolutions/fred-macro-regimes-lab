@@ -30,27 +30,35 @@ The emphasis is on interpretability, structure, and reuse — not forecasting or
 
 ## Project Structure (High-Level)
 
-FRED/
-├── macro_utils/ # Core reusable logic
-│ ├── transforms.py # YoY, MoM, z-scores, real adjustments
-│ ├── regimes.py # Growth, inflation, policy, macro regimes
-│ ├── events.py # Event-window analysis utilities
-│ ├── plotting.py # Shared plotting helpers
-│ └── utils.py # Dataset builders, exports, helpers
-│
+```text
+fred-macro-regimes-lab/
 ├── notebooks/
-│ ├── 01–05 # Foundations (data, transforms, relationships)
-│ ├── 06v2 # Full macro research dashboard
-│ └── 07 # Regime transitions & monitoring
+│   ├── Notebook 01 - FRED Quickstart.ipynb
+│   ├── Notebook 02 - Transformations That Matter.ipynb
+│   ├── Notebook 03 - Macro Relationships.ipynb
+│   ├── Notebook 04 - Regimes & Signals.ipynb
+│   ├── Notebook 05 - Research Templates.ipynb
+│   ├── Notebook 06v1 - Macro Research Dashboard.ipynb
+│   ├── Notebook 06v2 - Fully Built Macro Research Pipeline.ipynb
+│   └── Notebook 07 - Regime Transitions & Practical Monitoring.ipynb
+│
+├── macro_utils/
+│   ├── __init__.py
+│   ├── transforms.py
+│   ├── regimes.py
+│   ├── events.py
+│   ├── plotting.py
+│   └── utils.py
 │
 ├── data/
-│ ├── raw/ # Raw FRED pulls
-│ ├── processed/ # Transformed datasets
-│ └── outputs/ # Dashboard-ready CSV exports
+│   ├── raw/
+│   └── outputs/
 │
-├── figures/ # Saved charts (optional)
-└── dashboards/ # Future dashboard integrations
-
+├── figures/
+├── dashboards/
+├── .gitignore
+└── README.md
+```
 ---
 
 ## Notebook Roadmap
