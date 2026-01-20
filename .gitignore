@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data artifacts (never commit generated data)
+data/raw/*
+data/outputs/*
+
+# Sandbox / scratch work
+sandbox/
+sandbox.ipynb
+notebooks/sandbox.ipynb
+
+# OS junk
+.DS_Store
+Thumbs.db
