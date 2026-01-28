@@ -107,7 +107,6 @@ A video walkthrough accompanies this project, focusing on:
 - Notebook **07** (regime transitions & monitoring)
 
 Links:
-- Video walkthrough: *(to be added)*
-- Blog post overview: *(to be added)*
+- Video walkthrough: https://youtu.be/mJ_8cxvRnoU
 
 ---
